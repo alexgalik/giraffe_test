@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', serif!important;
+}
+
+.alert-light:hover{
+  color: #818182;
+}
+
+.main-page, .postsform, .login, .postpage{
+  background-image: url('./assets/images/MainPage.jpeg');
+  background-size: cover;
+  height: 100vh!important;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.text-background {
+  background: rgba(229, 242, 255, 0.8);
+}
+.linksclass{
+  align-items: center;
+}
+
+.postsform form {
+  background-color: #fff;
+  border: 2px outset #818182;
+  padding: 15px;
+  border-radius: 20px;
+}
